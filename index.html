@@ -1,9 +1,149 @@
-<html>
-  <head>
-    <tittle>Nama saya ALIF NIZAR
-    <HEAD>
-    <BODY>
-      <H1>INI HALAMAN WEB PERTAMA SAYA</H1>
-    </BODY></tittle>
-  </head>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .profile-card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #333;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .job {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .info h2 {
+            margin-bottom: 15px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 8px;
+        }
+
+        .info p {
+            margin: 10px 0;
+        }
+
+        .skills {
+            margin-top: 25px;
+            text-align: left;
+        }
+
+        .skills h2 {
+            margin-bottom: 15px;
+        }
+
+        .skill {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="profile-card">
+
+            <!-- Foto Profil -->
+            <img src="foto.jpg" alt="Foto Profil" class="profile-photo">
+
+            <!-- Nama -->
+            <h1>Nama Saya</h1>
+            <p class="job">Mahasiswa</p>
+
+            <!-- Deskripsi -->
+            <p class="description">
+                Halo, saya adalah seorang mahasiswa yang sedang mempelajari
+                teknologi dan pemrograman. Saya memiliki ketertarikan dalam
+                pengembangan website dan ingin terus meningkatkan kemampuan
+                saya di bidang teknologi informasi.
+            </p>
+
+            <!-- Informasi Pribadi -->
+            <div class="info">
+                <h2>Informasi Saya</h2>
+
+                <p><strong>Nama:</strong> Nama Lengkap Saya</p>
+                <p><strong>Status:</strong> Mahasiswa</p>
+                <p><strong>Jurusan:</strong> Teknik Informatika</p>
+                <p><strong>Email:</strong> email@gmail.com</p>
+            </div>
+
+            <!-- Keahlian -->
+            <div class="skills">
+                <h2>Keahlian</h2>
+
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+            </div>
+
+            <footer>
+                &copy; 2026 Nama Saya
+            </footer>
+
+        </div>
+
+    </div>
+
+</body>
 </html>
